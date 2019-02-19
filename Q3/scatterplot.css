@@ -1,0 +1,19 @@
+.pagebreak { page-break-before: always; } 
+
+svg .good {
+    fill: transparent;
+    stroke: blue;
+}
+
+svg .bad {
+    fill: transparent;
+    stroke: red;
+}
+
+svg .tick>line {
+    fill: none;
+    stroke:#CCCCCC77;
+    stroke-width: 1;
+    stroke-dasharray: 5 5;
+    shape-rendering: crispEdges;
+}

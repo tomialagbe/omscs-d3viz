@@ -1,0 +1,20 @@
+svg .yLabel {
+    text-anchor: end;
+    font-family: sans-serif;
+    fill: #888888;
+    dominant-baseline: middle;
+}
+
+.barLabel {
+    fill: white;
+    font-family: sans-serif;
+    text-anchor: start;    
+    font-size: 12px;
+}
+
+.axisLabel {
+    fill: #666666;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}

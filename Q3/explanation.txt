@@ -1,0 +1,2 @@
+I think the combination of Feature 8(Budget) and Feature 6(Rating) is better at separating the "good rating" and "bad rating" classes.
+This is because the level of overlap between the points in the two classes is less with the Budget / Rating combination than with the Wins+Nominations/Rating combination.
