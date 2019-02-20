@@ -10,6 +10,7 @@ svg .yLabel {
     font-family: sans-serif;
     text-anchor: start;    
     font-size: 12px;
+    pointer-events:none;
 }
 
 .axisLabel {

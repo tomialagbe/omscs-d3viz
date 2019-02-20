@@ -10,3 +10,30 @@
     fill: #AAAAAA;
     font-weight: 300;
 }
+
+.domain {
+  stroke: none !important;
+}
+
+.tick > line {
+  stroke: none !important;
+}
+
+.tick > text {
+  font-family: sans-serif;
+}
+
+select {
+  margin-left: 100px;
+}
+
+.legendTitle {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.axisLabel {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
