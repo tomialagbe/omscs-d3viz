@@ -2,8 +2,8 @@ let margin = {
     top: 10, bottom: 200, left: 100, right: 150
 };
 
-var colors = [ "#7486D3", "#5F74CC", "#4A61C4", "#3C53B6", "#364AA0", "#2F418A", "#283774", "#212D5F", "#1A234A" ];
-colors = d3.schemePurples[9];
+// var colors = [ "#7486D3", "#5F74CC", "#4A61C4", "#3C53B6", "#364AA0", "#2F418A", "#283774", "#212D5F", "#1A234A" ];
+var colors = d3.schemePurples[9];
 
 var yAxisValues = [];
 let yAxisKeys = null;
@@ -252,7 +252,8 @@ function updateHeatMap(currentYear) {
 
     svg.selectAll(".rect")
     .data(yearData)
-    .transition()    
+    .transition()
+    .duration(500)
     .attr("fill", function(d) {             
         var color = legendScale(d.CrimeRate);
         console.log("YEAR: " + d.Year + "\nCRIME TYPE: " + d.CrimeType + "\nBOROUGH: " + d.Borough + "\nCRIME RATE: " + d.CrimeRate + "\nCOLOR: " + color);

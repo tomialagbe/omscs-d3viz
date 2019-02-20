@@ -1,0 +1,32 @@
+1. Ease to develop
+    Microsoft Excel: Microsoft Excel is the easiest to use of the three.
+                     No coding is required.
+                     Users simply select the type of chart they need and the data to back the chart. 
+                     The drawback of this approach is that more complex visualizations are difficult to achieve.
+    Tableau: I think Tableau is almost as easy to use as excel and definitely much easier to use than D3.
+             There is no need to write code when using tableau.
+             Creating complex visualizations is much easier than in Excel as Tableau provides a wide range of highly customizable visualization options.
+             Although the kind of interactive visualizations that can be achieved with D3 cannot be replicated in Tableau.
+    D3: In my opinion non-trivial visualizations in D3 take a lot of work and a lot of coding. Among these three choices I think it is the most difficult to work with. 
+        Many open-source javascript libraries that build on D3's functionality exist to make creating visualizations easier. 
+
+2. Ease to maintain the visualization
+    Microsoft Excel: The easiest to maintain. Users just need to open the .xls(x) file that contains the visualizations and modify data cells.
+    Tableau: Easier to maintain than D3. 
+    D3: The hardest to maintain. Requires modification of code which may have been written by another programmer.
+
+3. Usability of visualization developed for end users.
+    Microsoft Excel: Excel visualizations are the least usable of the three. Excel visualizations are static.
+    Tableau: Tableau visualizations are more usable than Excel visualizations. Tableau enables developers add tooltips and popups, Tableau also provides the ability to create Dashboards and Stories which can help with presentations.
+    D3: Due to the ubiquity and flexibility of the web, i think D3 visualizations are the most usable. Effects like tooltips and popups are easily achievable which can help users drill down into visualizations.
+
+4. Scalability of visualization to large datasets
+    Microsoft Excel: I think Excel is the least scalable of the three. Opening large .xls/csv files heavily impacts the performance of the application.
+    Tableau: Tableau is the most scalable of the three because has the ability to open "live" connections to various data sources that may contain large datasets e.g SQL databases, Hadoop clusters and BigQuery queries.
+    D3: D3 can only work with data in memory; so I think it is less scalable than tableau, but more scalable than excel;
+
+5. System requirements to run the visualization for end users
+    Microsoft Excel: I think excel is the worst of the three because excel requires end users to have Microsoft excel (or powerpoint for presentations) - which is quite expensive - installed.                 
+    Tableau: Tableau provides Tableau Server/Cloud and Tableau Public for end users to access visualizations on the web/cloud.
+             Tableau Cloud/Server have licensing costs but Tableau public with limited functionality is available for free.
+    D3: D3 is the most accessible of the three. End users only need a browser to access visualizations developed in D3.
